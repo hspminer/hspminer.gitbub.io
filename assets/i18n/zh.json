@@ -1,0 +1,35 @@
+{
+    "FAQ": "常见问题",
+    "Language": "简体中文",
+    "about_us":"了解我们",
+    "contact_us":"联系我们",
+    "coin": "币",
+    "coin_name": "币种",
+    "Graphics_card": "显卡",
+    "version": "版本",
+    "Release_Time": "发布时间",
+    "download": "下载",
+    "home": {
+        "safe": "安全、稳定、高效、节能",
+        "support": "支持多币种",
+        "view_our_products": "查看我们的产品",
+        "popular_coins": {
+            "item_1": "支持",
+            "item_2": "热门",
+            "item_3": "币种"
+        },
+        "second_page_miner": {
+            "item_1": "让",
+            "item_2": "挖矿",
+            "item_3": "更简单、更高效"
+        }
+        
+    },
+    "foot": {
+        "Navigation": "站内导航",
+        "Home": "首页",
+        "OurProducts": "我们的产品",
+        "Core_Technology": "核心技术"
+
+    }
+}

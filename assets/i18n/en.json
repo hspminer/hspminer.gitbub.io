@@ -1,0 +1,34 @@
+{
+    "FAQ": "FAQ",
+    "Language": "English",
+    "about_us":"About Us",
+    "contact_us":"Contact Us",
+    "coin": "Coin",
+    "coin_name": "Coin Name",
+    "Graphics_card": "Graphics Card",
+    "version": "Version",
+    "Release_Time": "Release Time",
+    "download": "Download",
+    "home": {
+        "safe": "Safe、Stable、Energy、Efficient",
+        "support": "Support for multiple coins",
+        "view_our_products": "View our products",
+        "popular_coins": {
+            "item_1": "Support for ",
+            "item_2": "popular ",
+            "item_3": "coins"
+        },
+        "second_page_miner": {
+            "item_1": "Make ",
+            "item_2": "mining ",
+            "item_3": "easier and more efficient"
+        }
+    },
+    "foot": {
+        "Navigation": "Navigation",
+        "Home": "Home",
+        "OurProducts": "Our Products",
+        "Core_Technology": "Core Technology"
+
+    }
+}

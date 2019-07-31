@@ -126,7 +126,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<!--\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/cli\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul>\n-->\n<mat-toolbar class=\"demo-app-header \">\n  <!--\n    <mat-toolbar-row>\n        <button mat-icon-button>\n          <mat-icon (click)=\"sidenav.toggle()\">menu</mat-icon>\n        </button>\n        <h1>SimpleCRM</h1>\n        <span class=\"toolbar-seprator\"></span>\n        <div>\n          <a mat-button [routerLink]=\"'/accounts'\"> 常见问题 </a>\n          <a mat-button [routerLink]=\"'/create-account'\"> 简体中文 </a>\n    \n        </div>\n      </mat-toolbar-row>\n    -->\n  <mat-toolbar-row>\n    <span><img src=\"./assets/logo3.png\" width=\"200\"></span>\n    <span class=\"example-fill-remaining-space\"></span>\n    <span class=\"align-center\"></span>\n    <span class=\"example-spacer\"></span>\n\n    <!--\n    <button mat-button><img src=\"./assets/hspminer.png\"></button>\n    <button mat-button>HSPMiner</button>\n    -->\n    <!-- 在這之後的都會被推到右邊去 -->\n    <!--\n    <span class=\"toolbar-seprator\"></span>\n    \n\n    <button mat-icon-button (click)=\"onClose()\">\n      <mat-icon>close</mat-icon>\n    </button>\n    -->\n    <button mat-button class=\"iem_padding\">常见问题</button>\n    <button mat-button [matMenuTriggerFor]=\"menu\" class=\"iem_padding\">简体中文</button>\n    <mat-menu #menu=\"matMenu\">\n      <button mat-menu-item>简体中文</button>\n      <button mat-menu-item>English</button>\n    </mat-menu>\n\n  </mat-toolbar-row>\n</mat-toolbar>\n\n<main id=\"container\">\n  <router-outlet></router-outlet>\n</main>\n\n\n<app-footer></app-footer>\n\n<app-icp></app-icp>\n\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<!--\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/cli\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul>\n-->\n<mat-toolbar class=\"demo-app-header \">\n  <!--\n    <mat-toolbar-row>\n        <button mat-icon-button>\n          <mat-icon (click)=\"sidenav.toggle()\">menu</mat-icon>\n        </button>\n        <h1>SimpleCRM</h1>\n        <span class=\"toolbar-seprator\"></span>\n        <div>\n          <a mat-button [routerLink]=\"'/accounts'\"> 常见问题 </a>\n          <a mat-button [routerLink]=\"'/create-account'\"> 简体中文 </a>\n    \n        </div>\n      </mat-toolbar-row>\n    -->\n  <mat-toolbar-row>\n    <span><img src=\"./assets/logo3.png\" width=\"200\"></span>\n    <span class=\"example-fill-remaining-space\"></span>\n    <span class=\"align-center\"></span>\n    <span class=\"example-spacer\"></span>\n\n    <!--\n    <button mat-button><img src=\"./assets/hspminer.png\"></button>\n    <button mat-button>HSPMiner</button>\n    -->\n    <!-- 在這之後的都會被推到右邊去 -->\n    <!--\n    <span class=\"toolbar-seprator\"></span>\n    \n\n    <button mat-icon-button (click)=\"onClose()\">\n      <mat-icon>close</mat-icon>\n    </button>\n    -->\n    <button mat-button class=\"iem_padding\">{{'FAQ' | translate}}</button>\n    <button mat-button [matMenuTriggerFor]=\"menu\" class=\"iem_padding\">{{'Language' | translate}}</button>\n    <mat-menu #menu=\"matMenu\">\n      <button mat-menu-item (click)=\"onClickLanguage('zh')\">简体中文</button>\n      <button mat-menu-item (click)=\"onClickLanguage('en')\">English</button>\n    </mat-menu>\n\n  </mat-toolbar-row>\n</mat-toolbar>\n\n<main id=\"container\">\n  <router-outlet></router-outlet>\n</main>\n\n\n<app-footer></app-footer>\n\n<app-icp></app-icp>\n\n\n"
 
 /***/ }),
 
@@ -153,18 +153,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ngx-translate/core */ "./node_modules/@ngx-translate/core/fesm5/ngx-translate-core.js");
+
 
 
 var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+    //private m_strCurrentLanuge: string = '简体中文';
+    function AppComponent(translate) {
+        this.translate = translate;
         this.title = 'hspminer';
+        translate.addLangs(["zh", "en"]);
+        translate.setDefaultLang('zh');
+        // const browserLang = translate.getBrowserLang();
+        // translate.use(browserLang.match(/zh|en/) ? browserLang : 'zh');
     }
+    AppComponent.prototype.onClickLanguage = function (strLanguage) {
+        this.translate.setDefaultLang(strLanguage);
+    };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-root',
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
             styles: [__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")]
-        })
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_2__["TranslateService"]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -177,11 +189,12 @@ var AppComponent = /** @class */ (function () {
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
   \*******************************/
-/*! exports provided: AppModule */
+/*! exports provided: HttpLoaderFactory, AppModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpLoaderFactory", function() { return HttpLoaderFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
@@ -200,6 +213,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_productpage_productpage_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./home/productpage/productpage.component */ "./src/app/home/productpage/productpage.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
 /* harmony import */ var _icp_icp_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./icp/icp.component */ "./src/app/icp/icp.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @ngx-translate/core */ "./node_modules/@ngx-translate/core/fesm5/ngx-translate-core.js");
+/* harmony import */ var _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @ngx-translate/http-loader */ "./node_modules/@ngx-translate/http-loader/fesm5/ngx-translate-http-loader.js");
 
 
 
@@ -219,6 +235,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+//https://www.cnblogs.com/modou/p/9527230.html    angular5 基于ngx-translate实现多语言切换
+//https://github.com/ngx-translate/core
+
+
+
+function HttpLoaderFactory(httpClient) {
+    return new _ngx_translate_http_loader__WEBPACK_IMPORTED_MODULE_19__["TranslateHttpLoader"](httpClient);
+}
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -243,7 +267,15 @@ var AppModule = /** @class */ (function () {
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
                 // MatButtonModule,
                 // MatCheckboxModule
-                _material_module__WEBPACK_IMPORTED_MODULE_6__["MaterialModule"]
+                _material_module__WEBPACK_IMPORTED_MODULE_6__["MaterialModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_17__["HttpClientModule"],
+                _ngx_translate_core__WEBPACK_IMPORTED_MODULE_18__["TranslateModule"].forRoot({
+                    loader: {
+                        provide: _ngx_translate_core__WEBPACK_IMPORTED_MODULE_18__["TranslateLoader"],
+                        useFactory: HttpLoaderFactory,
+                        deps: [_angular_common_http__WEBPACK_IMPORTED_MODULE_17__["HttpClient"]]
+                    }
+                }),
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -263,7 +295,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer>\n  <div class=\"foot clearfloat\">\n    <div class=\"grid navigation\">\n      <h3>站内导航</h3>\n      <ul>\n        <li><a href=\"./\">首页</a> </li>\n        <li><a href=\"./products.html\">我们的产品</a></li>\n        <li><a href=\"./technology.html\">核心技术</a> </li>\n        <li><a href=\"./about.html\">关于我们</a> </li>\n      </ul>\n    </div>\n    <div class=\"grid contactus\">\n      <h3>联系我们</h3>\n      <ul>\n        <li>QQ-123456</li>\n        <li>123456@qq.com</li>\n      </ul>\n      <!-- <div class=\"img962110\">\n                      <img src=\"./assets/img/962110.jpg\" alt=\"\">\n                  </div> -->\n    </div>\n\n  </div>\n\n</footer>"
+module.exports = "<footer>\n  <div class=\"foot clearfloat\">\n    <div class=\"grid navigation\">\n      <h3>{{'foot.Navigation' | translate}}</h3>\n      <ul>\n        <li><a href=\"./\">{{'foot.Home' | translate}}</a> </li>\n        <li><a href=\"./products.html\">{{'foot.OurProducts' | translate}}</a></li>\n        <li><a href=\"./technology.html\">{{'foot.Core_Technology' | translate}}</a> </li>\n        <li><a href=\"./about.html\">{{'about_us' | translate}}</a> </li>\n      </ul>\n    </div>\n    <div class=\"grid contactus\">\n      <h3>{{'contact_us' | translate}}</h3>\n      <ul>\n        <li>QQ: 870349675</li>\n        <li>2652592107@qq.com</li>\n      </ul>\n      <!-- <div class=\"img962110\">\n                      <img src=\"./assets/img/962110.jpg\" alt=\"\">\n                  </div> -->\n    </div>\n\n  </div>\n\n</footer>"
 
 /***/ }),
 
@@ -375,7 +407,7 @@ var HelpComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"block fristpage\">\n    <div class=\"title fiveax anibegin aniend\">\n        <div>\n            <!--\n            <p>HSPMiner做最专业的挖矿软件</p>\n            <br>\n            -->\n            <p>安全、稳定、高效、节能</p>\n            <p>支持多币种</p>\n        </div>\n\n        <div class=\"appicons anibegin aniend\">\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/ae.png\">\n                <span>AE</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/btm.png\">\n                <span>BTM</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/grin.png\">\n                <span>GRIN</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/eth.png\">\n                <span>ETH</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/etc.png\">\n                <span>ETC</span>\n            </div>\n            <div class=\"appicon\">\n                    <img src=\"./assets/coins/beam.png\">\n                    <span>BEAM</span>\n                </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/moac.png\">\n                <span>MOAC</span>\n            </div>\n        </div>\n\n        <div class=\"link anibegin  aniend\">\n                <a class=\"morelink\" href=\"./products.html\">\n                    <span class=\"hover\">查看我们的产品</span>\n                    <label></label>\n                </a>\n            </div>\n\n\n    </div>\n\n</div>\n\n"
+module.exports = "\n<div class=\"block fristpage\">\n    <div class=\"title fiveax anibegin aniend\">\n        <div>\n            <!--\n            <p>HSPMiner做最专业的挖矿软件</p>\n            <br>\n            -->\n            <p>{{'home.safe' | translate}}</p>\n            <p>{{'home.support' | translate}}</p>\n        </div>\n\n        <div class=\"appicons anibegin aniend\">\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/ae.png\">\n                <span>AE</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/btm.png\">\n                <span>BTM</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/grin.png\">\n                <span>GRIN</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/eth.png\">\n                <span>ETH</span>\n            </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/etc.png\">\n                <span>ETC</span>\n            </div>\n            <div class=\"appicon\">\n                    <img src=\"./assets/coins/beam.png\">\n                    <span>BEAM</span>\n                </div>\n            <div class=\"appicon\">\n                <img src=\"./assets/coins/moac.png\">\n                <span>MOAC</span>\n            </div>\n        </div>\n\n        <div class=\"link anibegin  aniend\">\n                <a class=\"morelink\" href=\"./products.html\">\n                    <span class=\"hover\">{{'home.view_our_products' | translate}}</span>\n                    <label></label>\n                </a>\n            </div>\n\n\n    </div>\n\n</div>\n\n"
 
 /***/ }),
 
@@ -489,7 +521,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--sticky: true 固定表头 https://blog.kevinyang.net/2018/09/19/angular-material-table-hidden-api/ -->\n\n<div class=\"block blk-frist\">\n    <table mat-table [dataSource]=\"kernelItem\" class=\"mat-elevation-z8\">\n\n        <ng-container matColumnDef=\"img\">\n            <th mat-header-cell *matHeaderCellDef style=\"width: 15%\"> 币 </th>\n\n            <td mat-cell *matCellDef=\"let element\">\n                <div class=\"table_item\">\n                    <a href=\"#\">\n                        <img src=\"{{element.img}}\">\n                    </a>\n                </div>\n            </td>\n\n        </ng-container>\n\n        <ng-container matColumnDef=\"coins\">\n                <th mat-header-cell *matHeaderCellDef  style=\"width: 12.5%\"> 币种 </th>\n                <td mat-cell *matCellDef=\"let element\"> {{element.coins}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"amd_nvidia\">\n            <th mat-header-cell *matHeaderCellDef style=\"width: 25%\"> 显卡 </th>\n            <td mat-cell *matCellDef=\"let element\"> \n                <span *ngIf=\"element.amd_nvidia!=0\" style=\"margin-right: 15px\"><img src=\"./assets/NVIDIA-Logo.svg\" width=\"99\"></span>  \n                <span *ngIf=\"element.amd_nvidia!=1\" ><img src=\"./assets/AMD_Logo.svg\" width=\"70\"></span>\n                          \n            </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"ver\">\n                <th mat-header-cell *matHeaderCellDef style=\"width: 12.5%\"> 版本 </th>\n                <td mat-cell *matCellDef=\"let element\"> {{element.ver}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"update\" style=\"width: 15%\">\n            <th mat-header-cell *matHeaderCellDef> 发布时间 </th>\n            <td mat-cell *matCellDef=\"let element\"> {{element.update}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"download\">\n                <th mat-header-cell *matHeaderCellDef> 下载 </th>\n                <td mat-cell *matCellDef=\"let element\"> \n                    <a mat-button routerLink={{element.download}}>\n                        <img src=\"./assets/download.svg\" width=\"45\" >\n                    </a>\n                </td>\n        </ng-container>\n        \n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns; sticky: true\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n    </table>\n\n</div>\n\n\n\n<!--\n<div class=\"block blk-frist\">\n    <div class=\"latest_job_box jb_cover\">\n        <div class=\"job_list\">\n            <a href=\"#\"><img src=\"./assets/coins/btm.png\">\n                <h6>Trainee Web Designer, (Fresher)</h6>\n            </a>\n        </div>\n        <div class=\"job_list_next\">\n            <p>google</p>\n        </div>\n        <div class=\"job_list_next\">\n            <p>Remotely</p>\n        </div>\n        <div class=\"job_list_next\">\n            <p>new york</p>\n        </div>\n        <div class=\"job_list_next\">\n            <p>$9,000</p>\n        </div>\n        <div class=\"job_list_next\">\n            <div class=\"header_btn search_btn apply_btn jb_cover\">\n                <a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">apply</a>\n            </div>\n        </div>\n    </div>\n\n</div>\n\n-->\n\n"
+module.exports = "<!--sticky: true 固定表头 https://blog.kevinyang.net/2018/09/19/angular-material-table-hidden-api/ -->\n\n<div class=\"block blk-frist\">\n    <table mat-table [dataSource]=\"kernelItem\" class=\"mat-elevation-z8\">\n\n        <ng-container matColumnDef=\"img\">\n            <th mat-header-cell *matHeaderCellDef style=\"width: 15%\"> {{'coin' | translate}} </th>\n\n            <td mat-cell *matCellDef=\"let element\">\n                <div class=\"table_item\">\n                    <a href=\"#\">\n                        <img src=\"{{element.img}}\">\n                    </a>\n                </div>\n            </td>\n\n        </ng-container>\n\n        <ng-container matColumnDef=\"coins\">\n                <th mat-header-cell *matHeaderCellDef  style=\"width: 12.5%\"> {{'coin_name' | translate}} </th>\n                <td mat-cell *matCellDef=\"let element\"> {{element.coins}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"amd_nvidia\">\n            <th mat-header-cell *matHeaderCellDef style=\"width: 25%\"> {{'Graphics_card' | translate}} </th>\n            <td mat-cell *matCellDef=\"let element\"> \n                <span *ngIf=\"element.amd_nvidia!=0\" style=\"margin-right: 15px\"><img src=\"./assets/NVIDIA-Logo.svg\" width=\"99\"></span>  \n                <span *ngIf=\"element.amd_nvidia!=1\" ><img src=\"./assets/AMD_Logo.svg\" width=\"70\"></span>\n                          \n            </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"ver\">\n                <th mat-header-cell *matHeaderCellDef style=\"width: 12.5%\"> {{'version' | translate}} </th>\n                <td mat-cell *matCellDef=\"let element\"> {{element.ver}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"update\" style=\"width: 15%\">\n            <th mat-header-cell *matHeaderCellDef> {{'Release_Time' | translate}} </th>\n            <td mat-cell *matCellDef=\"let element\"> {{element.update}} </td>\n        </ng-container>\n\n        <ng-container matColumnDef=\"download\">\n                <th mat-header-cell *matHeaderCellDef> {{'download' | translate}} </th>\n                <td mat-cell *matCellDef=\"let element\"> \n                    <a mat-button routerLink={{element.download}}>\n                        <img src=\"./assets/download.svg\" width=\"45\" >\n                    </a>\n                </td>\n        </ng-container>\n        \n        <tr mat-header-row *matHeaderRowDef=\"displayedColumns; sticky: true\"></tr>\n        <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n    </table>\n\n</div>\n\n\n\n<!--\n<div class=\"block blk-frist\">\n    <div class=\"latest_job_box jb_cover\">\n        <div class=\"job_list\">\n            <a href=\"#\"><img src=\"./assets/coins/btm.png\">\n                <h6>Trainee Web Designer, (Fresher)</h6>\n            </a>\n        </div>\n        <div class=\"job_list_next\">\n            <p>google</p>\n        </div>\n        <div class=\"job_list_next\">\n            <p>Remotely</p>\n        </div>\n        <div class=\"job_list_next\">\n            <p>new york</p>\n        </div>\n        <div class=\"job_list_next\">\n            <p>$9,000</p>\n        </div>\n        <div class=\"job_list_next\">\n            <div class=\"header_btn search_btn apply_btn jb_cover\">\n                <a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\">apply</a>\n            </div>\n        </div>\n    </div>\n\n</div>\n\n-->\n\n"
 
 /***/ }),
 
@@ -636,7 +668,7 @@ var ProductpageComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"block blk-frist\">\n    <div class=\"blkcent\">\n        <p class=\"anibegin aniend\">支持<span>热门</span>币种 </p>\n        <p class=\"anibegin aniend\">让<span>挖矿</span>更简单、更高效</p>\n        <div class=\"link anibegin aniend\">\n            <a class=\"morelink\" href=\"./about.html\">\n                <span class=\"hover\">了解我们</span>\n                <label></label>\n            </a>\n        </div>\n    </div>\n    <!-- <div class=\"mouse anibegin\">\n            <img src=\"./assets/img/enternextpage_icon@2x.png\" alt=\"\">\n        </div> -->\n</div>"
+module.exports = "<div class=\"block blk-frist\">\n    <div class=\"blkcent\">\n        <p class=\"anibegin aniend\" >{{'home.popular_coins.item_1' | translate}}<span>{{'home.popular_coins.item_2' | translate}}</span>{{'home.popular_coins.item_3' | translate}}</p>\n        <p class=\"anibegin aniend\">{{'home.second_page_miner.item_1' | translate}}<span>{{'home.second_page_miner.item_2' | translate}}</span>{{'home.second_page_miner.item_3' | translate}}</p>\n        <div class=\"link anibegin aniend\">\n            <a class=\"morelink\" href=\"./about.html\">\n                <span class=\"hover\">{{'about_us' | translate}}</span>\n                <label></label>\n            </a>\n        </div>\n    </div>\n    <!-- <div class=\"mouse anibegin\">\n            <img src=\"./assets/img/enternextpage_icon@2x.png\" alt=\"\">\n        </div> -->\n</div>"
 
 /***/ }),
 
