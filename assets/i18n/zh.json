@@ -7,6 +7,7 @@
     "coin_name": "币种",
     "Graphics_card": "显卡",
     "version": "版本",
+    "version_info": "版本信息",
     "Release_Time": "发布时间",
     "download": "下载",
     "home": {
@@ -31,5 +32,19 @@
         "OurProducts": "我们的产品",
         "Core_Technology": "核心技术"
 
-    }
+    },
+    "about": {
+        "desc": "HSPMiner是一款为NVIDIA和AMD GPU深度优化的挖矿软件。HSPMiner是目前最快的挖矿程序 -- 我们使用了多种技术以释放出硬件的潜力。HSPMiner支持包括Equihash, Ethash, Cuckoo-Style等各种算法，能挖ETH（以太坊)，ZEC（零币），GRIN等币种。",
+        "core_technology": "HSPMiner核心技术"
+    
+    },
+
+    "example": "例子：",
+    "pool_address_port": "矿池地址:端口",
+    "wallet_address": "钱包地址",
+    "worker_name": "矿工名",
+    "worker_password": "矿工密码",
+    "logfile": "开启日志功能",
+    "api": "开启Http服务，查看当前矿工运行信息"
+
 }

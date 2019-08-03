@@ -7,6 +7,7 @@
     "coin_name": "Coin Name",
     "Graphics_card": "Graphics Card",
     "version": "Version",
+    "version_info": "Version Info",
     "Release_Time": "Release Time",
     "download": "Download",
     "home": {
@@ -30,5 +31,17 @@
         "OurProducts": "Our Products",
         "Core_Technology": "Core Technology"
 
-    }
+    },
+    "about": {
+        "desc": "HSPMiner is a highly optimized cryptocurrency miner that runs on modern AMD / NVIDIA GPUs. HSPMiner is one of the fastest publicly available miners today -- we use various techniques including tiling and pipelining to realize the full potentials of the hardware.",
+        "core_technology": "HSPMiner Core Technology"
+    },
+
+    "example": "example:",
+    "pool_address_port": "Pool address and port",
+    "wallet_address": "Wallet Address",
+    "worker_name": "Worker Name",
+    "worker_password": "Worker Password",
+    "logfile": "Add log file",
+    "api": "http web api "
 }
