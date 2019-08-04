@@ -392,24 +392,24 @@ var ContentComponent = /** @class */ (function () {
                     "./assets/coins/ae.png"
                 ],
                 readme: {
-                    last_update: "v2.2.9",
-                    url_zh: "#",
-                    url_en: "#"
+                    last_update: "v2.2.4",
+                    url_zh: "https://github.com/hspminer/HSPMinerAE/blob/master/README_zh.md",
+                    url_en: "https://github.com/hspminer/HSPMinerAE"
                 },
                 performance: {
-                    info_zh: "18% ↑",
-                    info_en: "18% ↑",
-                    url_zh: "#",
-                    url_en: "#"
+                    info_zh: "8% ↑",
+                    info_en: "8% ↑",
+                    url_zh: "https://github.com/hspminer/HSPMinerAE/blob/master/README_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87",
+                    url_en: "https://github.com/hspminer/HSPMinerAE/blob/master/README.md#performance-stock-frequency"
                 },
                 download: [
                     {
                         system_img: "./assets/windows.svg",
-                        url_path: "#"
+                        url_path: "https://github.com/hspminer/HSPMinerAE/releases"
                     },
                     {
                         system_img: "./assets/ubuntu.svg",
-                        url_path: "#"
+                        url_path: "https://github.com/hspminer/HSPMinerAE/releases"
                     }
                 ]
             },
@@ -429,7 +429,7 @@ var ContentComponent = /** @class */ (function () {
                     info_zh: "8% ↑",
                     info_en: "8% ↑",
                     url_zh: "https://github.com/hspminer/HSPMinerETH/blob/master/readme_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87",
-                    url_en: "#"
+                    url_en: "https://github.com/hspminer/HSPMinerETH/blob/master/readme.md#performance-stock-frequency"
                 },
                 download: [
                     {
@@ -457,7 +457,7 @@ var ContentComponent = /** @class */ (function () {
                     info_zh: "10% ↑",
                     info_en: "10% ↑",
                     url_zh: "https://github.com/hspminer/HSPMinerGrin/blob/master/readme_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87",
-                    url_en: "https://github.com/hspminer/HSPMinerGrin/blob/master/readme_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87"
+                    url_en: "https://github.com/hspminer/HSPMinerGrin#performance-stock-frequency"
                 },
                 download: [
                     {
@@ -484,7 +484,7 @@ var ContentComponent = /** @class */ (function () {
                     info_zh: "10% ↑",
                     info_en: "10% ↑",
                     url_zh: "https://github.com/hspminer/HSPMinerBTM/blob/master/readme_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87",
-                    url_en: "https://github.com/hspminer/HSPMinerBTM/blob/master/readme_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87"
+                    url_en: "https://github.com/hspminer/HSPMinerBTM#performance-stock-frequency"
                 },
                 download: [
                     {
