@@ -45,6 +45,11 @@
     "worker_name": "矿工名",
     "worker_password": "矿工密码",
     "logfile": "开启日志功能",
-    "api": "开启Http服务，查看当前矿工运行信息"
+    "api": "开启Http服务，查看当前矿工运行信息",
+
+    "application_name": "应用程序名称",
+    "supported_coins": "支持的币种",
+    "performance_improvement": "性能提升",
+    "readme": "帮助文档"
 
 }

@@ -43,5 +43,11 @@
     "worker_name": "Worker Name",
     "worker_password": "Worker Password",
     "logfile": "Add log file",
-    "api": "http web api "
+    "api": "http web api ",
+
+
+    "application_name": "Application Name",
+    "supported_coins": "Supported Coins",
+    "performance_improvement": "Performance Improvement",
+    "readme": "Help & Readme"
 }
