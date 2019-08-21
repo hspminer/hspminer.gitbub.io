@@ -97,6 +97,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _products_products_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./products/products.component */ "./src/app/products/products.component.ts");
 /* harmony import */ var _performances_performances_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./performances/performances.component */ "./src/app/performances/performances.component.ts");
 /* harmony import */ var _content_content_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./content/content.component */ "./src/app/content/content.component.ts");
+/* harmony import */ var _help_help_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./help/help.component */ "./src/app/help/help.component.ts");
+
 
 
 
@@ -114,6 +116,7 @@ var routes = [
     { path: 'products', component: _products_products_component__WEBPACK_IMPORTED_MODULE_5__["ProductsComponent"] },
     { path: 'performances', component: _performances_performances_component__WEBPACK_IMPORTED_MODULE_6__["PerformancesComponent"] },
     { path: 'test', component: _web_info_info_component__WEBPACK_IMPORTED_MODULE_3__["InfoComponent"] },
+    { path: 'help', component: _help_help_component__WEBPACK_IMPORTED_MODULE_8__["HelpComponent"] },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -452,13 +455,13 @@ var ContentComponent = /** @class */ (function () {
                     "./assets/coins/grin.png"
                 ],
                 readme: {
-                    last_update: "v2.0.9",
+                    last_update: "v2.3.2",
                     url_zh: "https://github.com/hspminer/HSPMinerGrin/blob/master/readme_zh.md",
                     url_en: "https://github.com/hspminer/HSPMinerGrin"
                 },
                 performance: {
-                    info_zh: "10% ↑",
-                    info_en: "10% ↑",
+                    info_zh: "5% ↑",
+                    info_en: "5% ↑",
                     url_zh: "https://github.com/hspminer/HSPMinerGrin/blob/master/readme_zh.md#%E5%8F%82%E8%80%83%E7%AE%97%E5%8A%9B%E9%BB%98%E8%AE%A4%E9%A2%91%E7%8E%87",
                     url_en: "https://github.com/hspminer/HSPMinerGrin#performance-stock-frequency"
                 },
@@ -479,7 +482,7 @@ var ContentComponent = /** @class */ (function () {
                     "./assets/coins/btm.png"
                 ],
                 readme: {
-                    last_update: "v2.0.9",
+                    last_update: "v1.1.6",
                     url_zh: "https://github.com/hspminer/HSPMinerBTM/blob/master/readme_zh.md",
                     url_en: "https://github.com/hspminer/HSPMinerBTM"
                 },
@@ -493,12 +496,11 @@ var ContentComponent = /** @class */ (function () {
                     {
                         system_img: "./assets/windows.svg",
                         url_path: "https://github.com/hspminer/HSPMinerBTM/releases"
+                    },
+                    {
+                        system_img: "./assets/ubuntu.svg",
+                        url_path: "https://github.com/hspminer/HSPMinerBTM/releases"
                     }
-                    // ,
-                    // {
-                    //   system_img: "./assets/ubuntu.svg",
-                    //   url_path: "https://github.com/hspminer/HSPMinerBTM/releases"
-                    // }
                 ]
             }
         ];
@@ -670,7 +672,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>help works!</p>\n"
+module.exports = "<!--\n<div class=\"card-deck-container\">\n\n\n    <mat-card class=\"example-card\">\n        <mat-card-header>\n            <div mat-card-avatar class=\"example-header-image\"></div>\n            <mat-card-title>Shiba Inu</mat-card-title>\n            <mat-card-subtitle>Dog Breed</mat-card-subtitle>\n        </mat-card-header>\n        <img mat-card-image src=\"https://material.angular.io/assets/img/examples/shiba2.jpg\" alt=\"Photo of a Shiba Inu\">\n        <mat-card-content>\n            <p>\n                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\n                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\n                bred for hunting.\n            </p>\n        </mat-card-content>\n        <mat-card-actions>\n            <button mat-button>LIKE</button>\n            <button mat-button>SHARE</button>\n        </mat-card-actions>\n    </mat-card>\n\n\n    <mat-card class=\"example-card\">\n        <mat-card-header>\n            <div mat-card-avatar class=\"example-header-image\"></div>\n            <mat-card-title>Shiba Inu</mat-card-title>\n            <mat-card-subtitle>Dog Breed</mat-card-subtitle>\n        </mat-card-header>\n        <img mat-card-image src=\"https://material.angular.io/assets/img/examples/shiba2.jpg\" alt=\"Photo of a Shiba Inu\">\n        <mat-card-content>\n            <p>\n                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\n                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\n                bred for hunting.\n            </p>\n        </mat-card-content>\n        <mat-card-actions>\n            <button mat-button>LIKE</button>\n            <button mat-button>SHARE</button>\n        </mat-card-actions>\n    </mat-card>\n   \n</div>\n-->\n\n<div style=\"height: 90vh!important;\" >\n    <div fxLayout=\"row\" fxLayoutAlign=\"center center\">\n        <mat-card class=\"example-card\">\n            <mat-card-header>\n                <div mat-card-avatar class=\"example-header-image\"></div>\n                <mat-card-title>Shiba Inu</mat-card-title>\n                <mat-card-subtitle>Dog Breed</mat-card-subtitle>\n            </mat-card-header>\n            <img mat-card-image src=\"https://material.angular.io/assets/img/examples/shiba2.jpg\" alt=\"Photo of a Shiba Inu\">\n            <mat-card-content>\n                <p>\n                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.\n                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally\n                    bred for hunting.\n                </p>\n            </mat-card-content>\n            <mat-card-actions>\n                <button mat-button>LIKE</button>\n                <button mat-button>SHARE</button>\n            </mat-card-actions>\n        </mat-card>\n    </div>\n  </div>"
 
 /***/ }),
 
@@ -681,7 +683,7 @@ module.exports = "<p>help works!</p>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hlbHAvaGVscC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = ":host {\n  display: block; }\n\n.example-card {\n  display: inline-block;\n  max-width: 500px;\n  box-sizing: border-box;\n  width: 31.2%;\n  margin: 10px 10px 10px 10px; }\n\n.mat-card-cvr {\n  width: 100%;\n  text-align: center; }\n\n@media screen and (max-width: 1024px) {\n  .example-card {\n    width: 47%; } }\n\n@media screen and (max-width: 769px) {\n  .example-card {\n    width: 46%; } }\n\n@media screen and (max-width: 450px) {\n  .example-card {\n    width: 100%; } }\n\n.example-header-image {\n  background-image: url(\"https://material.angular.io/assets/img/examples/shiba1.jpg\");\n  background-size: cover; }\n\n.card-deck-container {\n  display: flex;\n  flex-flow: row wrap;\n  flex: 1 1 1;\n  justify-content: center; }\n\n.card-item {\n  flex: 1;\n  box-sizing: border-box;\n  -webkit-box-flex: 1;\n  -ms-box-flex: 1;\n  -moz-box-flex: 1;\n  padding: 3px 3px 3px 3px;\n  width: 300px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVscC9FOlxcY29kZVxcYW5ndWxhclxcbXktYXBwL3NyY1xcYXBwXFxoZWxwXFxoZWxwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBYyxFQUFBOztBQVVsQjtFQUNFLHFCQUFvQjtFQUNwQixnQkFBZ0I7RUFFaEIsc0JBQXNCO0VBQ3RCLFlBQVk7RUFDWiwyQkFBMkIsRUFBQTs7QUFHN0I7RUFDRSxXQUFXO0VBQ1gsa0JBQWlCLEVBQUE7O0FBR25CO0VBQ0U7SUFDRSxVQUFVLEVBQUEsRUFFWDs7QUFHSDtFQUNFO0lBQ0UsVUFBVSxFQUFBLEVBRVg7O0FBR0g7RUFDRTtJQUNFLFdBQVcsRUFBQSxFQUVaOztBQU1IO0VBQ0UsbUZBQW1GO0VBQ25GLHNCQUFzQixFQUFBOztBQUl4QjtFQUNJLGFBQWE7RUFDYixtQkFBbUI7RUFRbkIsV0FBVztFQWlCWCx1QkFBdUIsRUFBQTs7QUFJM0I7RUFDSSxPQUFPO0VBQ1Asc0JBQXNCO0VBQ3RCLG1CQUFtQjtFQUNuQixlQUFlO0VBQ2YsZ0JBQWdCO0VBQ2hCLHdCQUF3QjtFQUN4QixZQUFXLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9oZWxwL2hlbHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIC8vIHBhZGRpbmc6IDMycHg7XHJcbiAgICAvLyBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcclxuICAgIC8vIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICAgIC8vdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgLy9AYXQtcm9vdGRpc3BsYXk6IGZsZXg7XHJcbiAgICAvL2FsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICAvL21heC13aWR0aDogMTAyNHB4O1xyXG4gIH1cclxuXHJcbi5leGFtcGxlLWNhcmQge1xyXG4gIGRpc3BsYXk6aW5saW5lLWJsb2NrOyBcclxuICBtYXgtd2lkdGg6IDUwMHB4O1xyXG4gIC8vbWluLXdpZHRoOiAyMDBweDtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIHdpZHRoOiAzMS4yJTtcclxuICBtYXJnaW46IDEwcHggMTBweCAxMHB4IDEwcHg7XHJcbn1cclxuXHJcbi5tYXQtY2FyZC1jdnJ7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgdGV4dC1hbGlnbjpjZW50ZXI7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDEwMjRweCkge1xyXG4gIC5leGFtcGxlLWNhcmQge1xyXG4gICAgd2lkdGg6IDQ3JTtcclxuICAgIC8vL21hcmdpbi1ib3R0b206IDUwcHg7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjlweCkge1xyXG4gIC5leGFtcGxlLWNhcmQge1xyXG4gICAgd2lkdGg6IDQ2JTtcclxuICAgIC8vL21hcmdpbi1ib3R0b206IDUwcHg7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0NTBweCkge1xyXG4gIC5leGFtcGxlLWNhcmQge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICAvLy9tYXJnaW4tYm90dG9tOiA1MHB4O1xyXG4gIH1cclxufVxyXG5cclxuXHJcblxyXG5cclxuLmV4YW1wbGUtaGVhZGVyLWltYWdlIHtcclxuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJodHRwczovL21hdGVyaWFsLmFuZ3VsYXIuaW8vYXNzZXRzL2ltZy9leGFtcGxlcy9zaGliYTEuanBnXCIpO1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbn1cclxuXHJcblxyXG4uY2FyZC1kZWNrLWNvbnRhaW5lcntcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWZsb3c6IHJvdyB3cmFwO1xyXG4gICAgLy8gLXdlYmtpdC1ib3gtb3JpZW50OiBob3Jpem9udGFsO1xyXG4gICAgLy8gLW1zLWJveC1vcmllbnQ6aG9yaXpvbnRhbDtcclxuICAgIC8vIC1tb3otYm94LW9yaWVudDpob3Jpem9udGFsO1xyXG4gICAgLy8gLXdlYmtpdC1ib3gtZGlyZWN0aW9uOiBub3JtYWw7XHJcbiAgICAvLyAtbXMtYm94LWRpcmVjdGlvbjogbm9ybWFsO1xyXG4gICAgLy8gLW1vei1ib3gtZGlyZWN0aW9uOiBub3JtYWw7XHJcbiAgICBcclxuICAgIGZsZXg6IDEgMSAxO1xyXG4gICAgLy8gYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgIC8vIC13ZWJraXQtYm94LWZsZXg6IDE7XHJcbiAgICAvLyAtbXMtYm94LWZsZXg6IDE7XHJcbiAgICAvLyAtbW96LWJveC1mbGV4OiAxO1xyXG4gICAgXHJcbiAgICAvL3dpZHRoOiAxMDAlO1xyXG4gICAgLy8gbWF4LXdpZHRoOiAxMjAwcHg7XHJcbiAgICAvLyBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAvLyBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAvLyBwYWRkaW5nOiAxMHB4IDEwcHggMzBweDtcclxuICAgIC8vIG1hcmdpbjogMTBweCAxMHB4IDEwcHggMTBweDtcclxuICAgIC8vIGJhY2tncm91bmQtY29sb3I6ICNmNWY1ZjU7XHJcblxyXG4gICAgLy9hbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgLy9tYXgtd2lkdGg6IDEwMjRweDtcclxuICAgIFxyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7Ly9odHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy81MjgwMDA1NC9ob3ctdG8tY2VudGVyLW1hdC1jYXJkLWluLWFuZ3VsYXItbWF0ZXJpYWxzXHJcbiAgICAvLyBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcblxyXG4uY2FyZC1pdGVte1xyXG4gICAgZmxleDogMTtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAtd2Via2l0LWJveC1mbGV4OiAxO1xyXG4gICAgLW1zLWJveC1mbGV4OiAxO1xyXG4gICAgLW1vei1ib3gtZmxleDogMTtcclxuICAgIHBhZGRpbmc6IDNweCAzcHggM3B4IDNweDtcclxuICAgIHdpZHRoOjMwMHB4O1xyXG4gIFxyXG59XHJcbiJdfQ== */"
 
 /***/ }),
 
